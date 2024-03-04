@@ -7,9 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED0C0D452B7EFF0B0049C793 /* RoyalSwift in Frameworks */ = {isa = PBXBuildFile; productRef = ED0C0D442B7EFF0B0049C793 /* RoyalSwift */; };
+		ED0C0D482B7EFFD80049C793 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0C0D472B7EFFD80049C793 /* HomeScreen.swift */; };
+		ED0C0D4F2B8C258C0049C793 /* GridControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0C0D4E2B8C258C0049C793 /* GridControls.swift */; };
+		ED0C0D522B8C26A90049C793 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0C0D512B8C26A90049C793 /* HomeViewModel.swift */; };
+		ED0C0D542B8C28E60049C793 /* VisualGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0C0D532B8C28E60049C793 /* VisualGrid.swift */; };
+		ED0C0D562B8C2E490049C793 /* VisualGridModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0C0D552B8C2E490049C793 /* VisualGridModel.swift */; };
+		ED0C0D592B8ECBE40049C793 /* VisualGridModel+AStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0C0D582B8ECBE40049C793 /* VisualGridModel+AStar.swift */; };
+		ED0C0D5B2B8ECC0B0049C793 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0C0D5A2B8ECC0B0049C793 /* Node.swift */; };
+		ED0C0D5E2B8ECC380049C793 /* GridBoxModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0C0D5D2B8ECC380049C793 /* GridBoxModel.swift */; };
+		ED0C0D602B8ECC560049C793 /* GridBoxType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0C0D5F2B8ECC560049C793 /* GridBoxType.swift */; };
+		ED0C0D632B8ECC860049C793 /* GridBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0C0D622B8ECC860049C793 /* GridBox.swift */; };
+		ED0C0D672B93FDD10049C793 /* EditMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0C0D662B93FDD10049C793 /* EditMode.swift */; };
 		EDF8550D2B54B4BE00F21232 /* A_Star_StudioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF8550C2B54B4BE00F21232 /* A_Star_StudioApp.swift */; };
 		EDF8550F2B54B4BE00F21232 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF8550E2B54B4BE00F21232 /* ContentView.swift */; };
-		EDF855112B54B4BE00F21232 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF855102B54B4BE00F21232 /* Item.swift */; };
 		EDF855132B54B4BF00F21232 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF855122B54B4BF00F21232 /* Assets.xcassets */; };
 		EDF855172B54B4BF00F21232 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF855162B54B4BF00F21232 /* Preview Assets.xcassets */; };
 		EDF855212B54B4BF00F21232 /* A_Star_StudioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF855202B54B4BF00F21232 /* A_Star_StudioTests.swift */; };
@@ -35,10 +46,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED0C0D472B7EFFD80049C793 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		ED0C0D4E2B8C258C0049C793 /* GridControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridControls.swift; sourceTree = "<group>"; };
+		ED0C0D512B8C26A90049C793 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		ED0C0D532B8C28E60049C793 /* VisualGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualGrid.swift; sourceTree = "<group>"; };
+		ED0C0D552B8C2E490049C793 /* VisualGridModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualGridModel.swift; sourceTree = "<group>"; };
+		ED0C0D582B8ECBE40049C793 /* VisualGridModel+AStar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VisualGridModel+AStar.swift"; sourceTree = "<group>"; };
+		ED0C0D5A2B8ECC0B0049C793 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		ED0C0D5D2B8ECC380049C793 /* GridBoxModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBoxModel.swift; sourceTree = "<group>"; };
+		ED0C0D5F2B8ECC560049C793 /* GridBoxType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBoxType.swift; sourceTree = "<group>"; };
+		ED0C0D622B8ECC860049C793 /* GridBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBox.swift; sourceTree = "<group>"; };
+		ED0C0D662B93FDD10049C793 /* EditMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMode.swift; sourceTree = "<group>"; };
 		EDF855092B54B4BE00F21232 /* A-Star Studio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "A-Star Studio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDF8550C2B54B4BE00F21232 /* A_Star_StudioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A_Star_StudioApp.swift; sourceTree = "<group>"; };
 		EDF8550E2B54B4BE00F21232 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		EDF855102B54B4BE00F21232 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		EDF855122B54B4BF00F21232 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDF855142B54B4BF00F21232 /* A_Star_Studio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = A_Star_Studio.entitlements; sourceTree = "<group>"; };
 		EDF855162B54B4BF00F21232 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -54,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED0C0D452B7EFF0B0049C793 /* RoyalSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +96,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED0C0D462B7EFFCB0049C793 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ED0C0D612B8ECC700049C793 /* VisualGrid */,
+				ED0C0D472B7EFFD80049C793 /* HomeScreen.swift */,
+				ED0C0D4E2B8C258C0049C793 /* GridControls.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ED0C0D502B8C269F0049C793 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				ED0C0D512B8C26A90049C793 /* HomeViewModel.swift */,
+				ED0C0D552B8C2E490049C793 /* VisualGridModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		ED0C0D572B8ECB8B0049C793 /* Algrothm */ = {
+			isa = PBXGroup;
+			children = (
+				ED0C0D582B8ECBE40049C793 /* VisualGridModel+AStar.swift */,
+				ED0C0D5A2B8ECC0B0049C793 /* Node.swift */,
+			);
+			path = Algrothm;
+			sourceTree = "<group>";
+		};
+		ED0C0D5C2B8ECC250049C793 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ED0C0D5D2B8ECC380049C793 /* GridBoxModel.swift */,
+				ED0C0D5F2B8ECC560049C793 /* GridBoxType.swift */,
+				ED0C0D662B93FDD10049C793 /* EditMode.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ED0C0D612B8ECC700049C793 /* VisualGrid */ = {
+			isa = PBXGroup;
+			children = (
+				ED0C0D532B8C28E60049C793 /* VisualGrid.swift */,
+				ED0C0D622B8ECC860049C793 /* GridBox.swift */,
+			);
+			path = VisualGrid;
+			sourceTree = "<group>";
+		};
 		EDF855002B54B4BE00F21232 = {
 			isa = PBXGroup;
 			children = (
@@ -97,9 +166,12 @@
 		EDF8550B2B54B4BE00F21232 /* A-Star Studio */ = {
 			isa = PBXGroup;
 			children = (
+				ED0C0D5C2B8ECC250049C793 /* Models */,
+				ED0C0D572B8ECB8B0049C793 /* Algrothm */,
+				ED0C0D502B8C269F0049C793 /* ViewModels */,
 				EDF8550C2B54B4BE00F21232 /* A_Star_StudioApp.swift */,
 				EDF8550E2B54B4BE00F21232 /* ContentView.swift */,
-				EDF855102B54B4BE00F21232 /* Item.swift */,
+				ED0C0D462B7EFFCB0049C793 /* Views */,
 				EDF855122B54B4BF00F21232 /* Assets.xcassets */,
 				EDF855142B54B4BF00F21232 /* A_Star_Studio.entitlements */,
 				EDF855152B54B4BF00F21232 /* Preview Content */,
@@ -148,6 +220,9 @@
 			dependencies = (
 			);
 			name = "A-Star Studio";
+			packageProductDependencies = (
+				ED0C0D442B7EFF0B0049C793 /* RoyalSwift */,
+			);
 			productName = "A-Star Studio";
 			productReference = EDF855092B54B4BE00F21232 /* A-Star Studio.app */;
 			productType = "com.apple.product-type.application";
@@ -220,6 +295,9 @@
 				Base,
 			);
 			mainGroup = EDF855002B54B4BE00F21232;
+			packageReferences = (
+				ED0C0D432B7EFF0B0049C793 /* XCRemoteSwiftPackageReference "RoyalSwift" */,
+			);
 			productRefGroup = EDF8550A2B54B4BE00F21232 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -263,8 +341,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDF8550F2B54B4BE00F21232 /* ContentView.swift in Sources */,
-				EDF855112B54B4BE00F21232 /* Item.swift in Sources */,
 				EDF8550D2B54B4BE00F21232 /* A_Star_StudioApp.swift in Sources */,
+				ED0C0D602B8ECC560049C793 /* GridBoxType.swift in Sources */,
+				ED0C0D482B7EFFD80049C793 /* HomeScreen.swift in Sources */,
+				ED0C0D5E2B8ECC380049C793 /* GridBoxModel.swift in Sources */,
+				ED0C0D5B2B8ECC0B0049C793 /* Node.swift in Sources */,
+				ED0C0D542B8C28E60049C793 /* VisualGrid.swift in Sources */,
+				ED0C0D632B8ECC860049C793 /* GridBox.swift in Sources */,
+				ED0C0D562B8C2E490049C793 /* VisualGridModel.swift in Sources */,
+				ED0C0D522B8C26A90049C793 /* HomeViewModel.swift in Sources */,
+				ED0C0D4F2B8C258C0049C793 /* GridControls.swift in Sources */,
+				ED0C0D672B93FDD10049C793 /* EditMode.swift in Sources */,
+				ED0C0D592B8ECBE40049C793 /* VisualGridModel+AStar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -621,6 +709,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ED0C0D432B7EFF0B0049C793 /* XCRemoteSwiftPackageReference "RoyalSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aking618/RoyalSwift";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ED0C0D442B7EFF0B0049C793 /* RoyalSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED0C0D432B7EFF0B0049C793 /* XCRemoteSwiftPackageReference "RoyalSwift" */;
+			productName = RoyalSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EDF855012B54B4BE00F21232 /* Project object */;
 }

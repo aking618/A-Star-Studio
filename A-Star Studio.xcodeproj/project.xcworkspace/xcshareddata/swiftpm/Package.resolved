@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "royalswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/aking618/RoyalSwift",
+      "state" : {
+        "branch" : "main",
+        "revision" : "a545b836766a17178c0560b7281d83396fce02a1"
+      }
+    }
+  ],
+  "version" : 2
+}
